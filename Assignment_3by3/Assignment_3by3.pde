@@ -6,6 +6,8 @@ void setup()
 //
 void draw() 
 {
+  fullScreen(); //displayWidth, displayHeight
+  displayOrientation();
 }//End Draw
 //
 void keyPressed() 
@@ -16,3 +18,5 @@ void mousePressed()
 {
   
 }//End mousePressed
+//
+//End Main
