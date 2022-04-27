@@ -1,3 +1,6 @@
+import processing.sound.*;
+SoundFile file;
+
 //Global Variables
 color black= 0, resetWhite=255, red=#ED3737; //Not night modes (lots of blue)
 float rectWidth, rectHeight, ptDiameter;
@@ -15,7 +18,9 @@ void setup()
   population();
   //
   //Sounds
-  //file =
+  //file = new SoundFile(this, "goat.wav");
+  //file.play();
+  
   
 }//End Setup
 //
