@@ -4,7 +4,7 @@ SoundFile file;
 //Global Variables
 color black= 0, resetWhite=255, red=#ED3737; //Not night modes (lots of blue)
 float rectWidth, rectHeight, ptDiameter;
-int numberOfPoints = 16;
+int numberOfPoints = 17;
 float[] ptX = new float[numberOfPoints];
 float[] ptY = new float[numberOfPoints];
 
