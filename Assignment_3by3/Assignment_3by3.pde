@@ -27,18 +27,15 @@ void setup()
 }//End Setup
 //
 void draw() 
-/*
 {
-  for (int i=1; i<1; i++) {
-    rect(ptX[i], ptY[i], )
+  for (int j=0; j<2; j+=4 ) {
+    for (int i=1; i<4; i++) {
+      rect(ptXi[], ptY[], rectWidth, rectHeight);
+       fill(black);
+       ellipse();
+       fill(resetWhite);
+    }
   }
-  //for (int i=5; i<8; i++) {
-    
-  }
-  //for (int i=9; i<12; i++) {
-    
-  }
-  */
   rect(ptX[1], ptY[1], rectWidth, rectHeight);
   rect(ptX[2], ptY[2], rectWidth, rectHeight);
   rect(ptX[3], ptY[3], rectWidth, rectHeight);
@@ -61,11 +58,11 @@ void draw()
   //
   //Points for all other ellipses must be red
   fill(red);
-  for (int i=4; i<13; i+=4) {
-    
+  for (int j=0; ) {}
+    for (int i=4; i<13; i+=4) {
+      ellipse(ptX[i], ptY[i], ptDiameter, ptDiameter)
   }
   for (int i=13; i<ptX.length; i==) {
-    
   }
   ellipse(ptX[4], ptY[4], ptDiameter, ptDiameter);
   ellipse(ptX[8], ptY[8], ptDiameter, ptDiameter);
