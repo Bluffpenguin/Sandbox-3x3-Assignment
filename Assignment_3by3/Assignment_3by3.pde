@@ -27,6 +27,7 @@ void setup()
 }//End Setup
 //
 void draw() 
+/*
 {
   for (int i=1; i<1; i++) {
     rect(ptX[i], ptY[i], )
@@ -37,6 +38,7 @@ void draw()
   //for (int i=9; i<12; i++) {
     
   }
+  */
   rect(ptX[1], ptY[1], rectWidth, rectHeight);
   rect(ptX[2], ptY[2], rectWidth, rectHeight);
   rect(ptX[3], ptY[3], rectWidth, rectHeight);

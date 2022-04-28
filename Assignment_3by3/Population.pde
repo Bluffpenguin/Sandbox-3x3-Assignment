@@ -6,19 +6,17 @@ void population()
   rectHeight = appHeight*1/3;
   ptDiameter = appWidth*1/50;
   //
-  for (int i=1; i<ptX.length; i+=4) {
-    ptX[i] = appWidth*0;
-  }
-  for (int i=2; i<ptX.length; i+=4) {
-    ptX[i] = appWidth*1/3;
-  }
-  for (int i=3; i<ptX.length; i+=4) {
-    ptX[i] = appWidth*2/3;
-  }
-  for (int i=4; i<ptX.length; i+=4) {
-    ptX[i] = appWidth*3/3;
+  for (int j=0; j<4; j++) {
+    for (int i=1; i<ptX.length; i+=4) {
+      ptX[i+j] = appWidth*j/3;
+    }
   }
   //
+  for (int j=0; j<4; j++) {
+    for (int i=1; i<ptX.length; i++4) {
+      ptX[i+j] = appWidth*j/3;
+    }
+  }
   ptY[1] = ptY[2] = ptY[3] = ptY[4] = appWidth*0;
   ptY[5] = ptY[6] = ptY[7] = ptY[8] = appHeight*1/3;
   ptY[9] = ptY[10] = ptY[11] = ptY[12] = appHeight*2/3;
