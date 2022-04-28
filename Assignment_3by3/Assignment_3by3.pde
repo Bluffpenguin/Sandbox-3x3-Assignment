@@ -16,15 +16,27 @@ void setup()
   //
   population();
   //
+  println("\nX-values are: ");
+  println(ptX);
+  println("\nY-values are:");
+  println(ptY);
+  //
   //Sounds
   //file = new SoundFile(this, "goat.wav");
   //file.play();
-  
-  
 }//End Setup
 //
 void draw() 
 {
+  for (int i=1; i<1; i++) {
+    rect(ptX[i], ptY[i], )
+  }
+  //for (int i=5; i<8; i++) {
+    
+  }
+  //for (int i=9; i<12; i++) {
+    
+  }
   rect(ptX[1], ptY[1], rectWidth, rectHeight);
   rect(ptX[2], ptY[2], rectWidth, rectHeight);
   rect(ptX[3], ptY[3], rectWidth, rectHeight);
@@ -47,6 +59,12 @@ void draw()
   //
   //Points for all other ellipses must be red
   fill(red);
+  for (int i=4; i<13; i+=4) {
+    
+  }
+  for (int i=13; i<ptX.length; i==) {
+    
+  }
   ellipse(ptX[4], ptY[4], ptDiameter, ptDiameter);
   ellipse(ptX[8], ptY[8], ptDiameter, ptDiameter);
   ellipse(ptX[12], ptY[12], ptDiameter, ptDiameter);
