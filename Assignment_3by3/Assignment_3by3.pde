@@ -1,6 +1,3 @@
-import processing.sound.*;
-SoundFile file;
-
 //Global Variables
 color black= 0, resetWhite=255, red=#ED3737; //Not night modes (lots of blue)
 float rectWidth, rectHeight, ptDiameter;
@@ -22,8 +19,13 @@ void setup()
   println(ptY);
   //
   //Sounds
+<<<<<<< HEAD
   //file = new SoundFile(this, "goat.wav");
   //file.play();
+=======
+  //file =
+  
+>>>>>>> parent of 20c342a (Update Assignment_3by3.pde)
 }//End Setup
 //
 void draw() 
