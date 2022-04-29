@@ -5,6 +5,11 @@ float ptX1, ptY1, ptX2, ptY2, ptX3, ptY3, ptX4, ptY4;
 float ptX5, ptY5, ptX6, ptY6, ptX7, ptY7, ptX8, ptY8;
 float ptX9, ptY9, ptX10, ptY10, ptX11, ptY11, ptX12, ptY12;
 float ptX13, ptY13, ptX14, ptY14, ptX15, ptY15, ptX16, ptY16;
+int numberofButtons; //will be 9
+float[] buttonX = new float[numberofButtons];
+float[] buttonY = new float[numberofButtons];
+float[] buttonWidth = new float[numberofButtons];
+float[] buttonHeight = new float[numberofButtons];
 
 
 //
@@ -33,11 +38,11 @@ void draw()
   rect(ptX10, ptY10, rectWidth, rectHeight);
   rect(ptX11, ptY11, rectWidth, rectHeight);
   //
-  fill(black)
-  rect();
-  rect();
-  rect();
-  fill(resetWhite)
+  fill(black);
+  rect(buttonX[1], buttonY[1], buttonWidth[1], buttonHeight[1]);
+  rect(buttonX[2], buttonY[2], buttonWidth[2], buttonHeight[2]);
+  rect(buttonX[3], buttonY[3], buttonWidth[3], buttonHeight[3]);
+  fill(resetWhite);
   //
   fill(black);
   ellipse(ptX1, ptY1, ptDiameter, ptDiameter);
