@@ -7,7 +7,7 @@ float ptX1, ptY1, ptX2, ptY2, ptX3, ptY3, ptX4, ptY4;
 float ptX5, ptY5, ptX6, ptY6, ptX7, ptY7, ptX8, ptY8;
 float ptX9, ptY9, ptX10, ptY10, ptX11, ptY11, ptX12, ptY12;
 float ptX13, ptY13, ptX14, ptY14, ptX15, ptY15, ptX16, ptY16;
-int numberofButtons = 4; //will be 9
+int numberofButtons = 14; //will be 9
 float[] buttonX = new float[numberofButtons];
 float[] buttonY = new float[numberofButtons];
 float[] buttonWidth = new float[numberofButtons];
@@ -44,31 +44,34 @@ void mousePressed()
 {
   if (mouseX>=buttonX[1] && mouseX<=buttonX[1]+buttonWidth[1] && mouseY>=buttonY[1] && mouseY<=buttonY[1]+buttonHeight[1]) {
     println("BTN 1 Activated");
-    if () {
+    if (turnOnYellow=true) {
+      turnOnYellow=false;
     } else {
+      turnOnYellow=true;
     }
-    turnOnYellow=true;
-    turnOnPink=false;
-    turnOnBrown=false;
   }
   if (mouseX>=buttonX[2] && mouseX<=buttonX[2]+buttonWidth[2] && mouseY>=buttonY[2] && mouseY<=buttonY[2]+buttonHeight[2]) {
     println("BTN 2 Activated");
-    turnOnPink=true;
-    turnOnYellow=false;
-    turnOnBrown=false;
+    if (turnOnPink=true) {
+      turnOnPink=false;
+    } else {
+      turnOnPink=true;
+    }
   }
   if (mouseX>=buttonX[3] && mouseX<=buttonX[3]+buttonWidth[3] && mouseY>=buttonY[3] && mouseY<=buttonY[3]+buttonHeight[3]) {
     println("BTN 3 Activated");
-    turnOnBrown=true;
-    turnOnYellow=false;
-    turnOnPink=false;
+    if (turnOnBrown=true) {
+      turnOnBrown=false;
+    } else {
+      turnOnBrown=true;
+    }
   }
   if (mouseX>=ptX3 && mouseX<=ptX3+rectWidth && mouseY>=ptY3 && mouseY<=ptY3+rectHeight*0.5) {
     println("BTN 4 Activated");
     turnOnYellow=false;
     turnOnPink=false;
     turnOnBrown=false;
-  }//End Reset
+  } //End Reset
 }//End mousePressed
 //
 //End Main

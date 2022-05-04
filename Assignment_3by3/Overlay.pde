@@ -2,11 +2,12 @@
 //
 void overlayDraw() {
   //Sections
+  rect(ptX1, ptY1, rectWidth, rectHeight);
   //
-  fill(resetWhite);
   if (turnOnPink==true) fill(pink);
   if (turnOnYellow==true ) fill(yellow); //yellow 
   if (turnOnBrown==true) fill(brown);
+  //if (turnOnYellow==true) {fill(yellow);} else if (turnOnPink==true) {fill(pink);} else if (turnOnBrown==true) {fill(brown);} else {}
   rect(ptX2, ptY2, rectWidth, rectHeight); //Buttons change the Colour of RECT(#2)
   fill(resetGreen);
   //
