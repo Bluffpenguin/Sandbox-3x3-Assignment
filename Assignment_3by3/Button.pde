@@ -32,6 +32,14 @@ void buttondraw() {
     fill(black);
     rect(ptX3, ptY3, rectWidth, rectHeight*0.5);
   } //Button 4 (Reset), entire program
+  //
+  if (mouseX>=ptX3 && mouseX<=ptX3+rectWidth && mouseY>=ptY3 && mouseY<=ptY3+rectHeight*0.5) {
+    fill(yellow);
+    rect(ptX3, ptY3, rectWidth, rectHeight*0.5);
+  } else {
+    fill(black);
+    rect(ptX3, ptY3, rectWidth, rectHeight*0.5);
+  } //Button 4 (Reset), entire program
   fill(black);
   fill(resetWhite);
 }//End buttondraw

@@ -1,7 +1,7 @@
 //Global Variables
-color black= 0, resetWhite=255, resetGreen=#58BC50; //Not night modes (lots of blue)
-color red=color(255, 0, 0), yellow=color(255, 255, 0); //Nightmode color
-Boolean turnOnYellow=false;
+color black= 0, resetWhite=255, resetGreen=#58BC50, pink=#FF00B7; //Not night modes (lots of blue)
+color red=color(255, 0, 0), yellow=color(255, 255, 0), brown=#BC5B00; //Nightmode color
+Boolean turnOnYellow=false, turnOnPink=false, turnOnBrown=false;
 float rectWidth, rectHeight, ptDiameter;
 float ptX1, ptY1, ptX2, ptY2, ptX3, ptY3, ptX4, ptY4;
 float ptX5, ptY5, ptX6, ptY6, ptX7, ptY7, ptX8, ptY8;
@@ -44,17 +44,30 @@ void mousePressed()
 {
   if (mouseX>=buttonX[1] && mouseX<=buttonX[1]+buttonWidth[1] && mouseY>=buttonY[1] && mouseY<=buttonY[1]+buttonHeight[1]) {
     println("BTN 1 Activated");
+    if () {
+    } else {
+    }
     turnOnYellow=true;
+    turnOnPink=false;
+    turnOnBrown=false;
   }
   if (mouseX>=buttonX[2] && mouseX<=buttonX[2]+buttonWidth[2] && mouseY>=buttonY[2] && mouseY<=buttonY[2]+buttonHeight[2]) {
     println("BTN 2 Activated");
+    turnOnPink=true;
+    turnOnYellow=false;
+    turnOnBrown=false;
   }
   if (mouseX>=buttonX[3] && mouseX<=buttonX[3]+buttonWidth[3] && mouseY>=buttonY[3] && mouseY<=buttonY[3]+buttonHeight[3]) {
     println("BTN 3 Activated");
+    turnOnBrown=true;
+    turnOnYellow=false;
+    turnOnPink=false;
   }
   if (mouseX>=ptX3 && mouseX<=ptX3+rectWidth && mouseY>=ptY3 && mouseY<=ptY3+rectHeight*0.5) {
     println("BTN 4 Activated");
     turnOnYellow=false;
+    turnOnPink=false;
+    turnOnBrown=false;
   }//End Reset
 }//End mousePressed
 //
