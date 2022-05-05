@@ -1,6 +1,8 @@
+
 //
 void buttondraw() {
   //HoverOver is Yellow
+  //
   if (mouseX>=buttonX[1] && mouseX<=buttonX[1]+buttonWidth[1] && mouseY>=buttonY[1] && mouseY<=buttonY[1]+buttonHeight[1]) {
     fill(yellow);
     rect(buttonX[1], buttonY[1], buttonWidth[1], buttonHeight[1]);
@@ -24,22 +26,6 @@ void buttondraw() {
     fill(black);
     rect(buttonX[3], buttonY[3], buttonWidth[3], buttonHeight[3]);
   } //Button 3
-
-  if (mouseX>=ptX3 && mouseX<=ptX3+rectWidth && mouseY>=ptY3 && mouseY<=ptY3+rectHeight*0.5) {
-    fill(yellow);
-    rect(ptX3, ptY3, rectWidth, rectHeight*0.5);
-  } else {
-    fill(black);
-    rect(ptX3, ptY3, rectWidth, rectHeight*0.5);
-  } //Button 4 (Reset), entire program
-  //
-  if (mouseX>=ptX3 && mouseX<=ptX3+rectWidth && mouseY>=ptY3 && mouseY<=ptY3+rectHeight*0.5) {
-    fill(yellow);
-    rect(ptX3, ptY3, rectWidth, rectHeight*0.5);
-  } else {
-    fill(black);
-    rect(ptX3, ptY3, rectWidth, rectHeight*0.5);
-  } //Button 4 (Reset), entire program
   fill(black);
   fill(resetWhite);
 }//End buttondraw

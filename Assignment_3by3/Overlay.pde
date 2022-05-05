@@ -2,8 +2,9 @@
 //
 void overlayDraw() {
  
-  fill(resetGreen);
+  fill(resetWhite);
   //
+  fill(BGGrey);
   rect(ptX1, ptY1, rectWidth, rectHeight);
   rect(ptX2, ptY2, rectWidth, rectHeight);
   rect(ptX3, ptY3, rectWidth, rectHeight);
@@ -13,7 +14,7 @@ void overlayDraw() {
   rect(ptX9, ptY9, rectWidth, rectHeight);
   rect(ptX10, ptY10, rectWidth, rectHeight);
   rect(ptX11, ptY11, rectWidth, rectHeight);
-  fill(resetGreen);
+  fill(resetWhite);
   //
   //Points
   fill(resetWhite);

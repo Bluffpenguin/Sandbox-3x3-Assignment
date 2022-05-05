@@ -5,6 +5,7 @@ void population()
   rectWidth = appWidth*1/3;
   rectHeight = appHeight*1/3;
   ptDiameter = appWidth*1/50;
+  wordFont = createFont("Corbel", 48);
   
   ptX1 = ptX5 = ptX9 = ptX13 = appWidth*0; 
   ptX2 = ptX6 = ptX10 = ptX14 = appWidth*1/3; 
@@ -31,4 +32,18 @@ void population()
   buttonWidth[3] = appWidth*(1.0/3.0)*(1.0/5.0); //Denominator is 15
   buttonHeight[3] = appHeight*(1.0/3.0)*(1.0/5.0); //Denominator is 15
   //
+  quitbuttonX =appWidth*6.2/9;
+  quitbuttonY =appHeight*0.5/9;
+  quitbuttonWidth =appWidth*2.6/9;
+  quitbuttonHeight =appHeight*1/9;
+  resbuttonX =appWidth*6.2/9;
+  resbuttonY =appHeight*1.8/9;
+  resbuttonWidth =appWidth*2.6/9;
+  resbuttonHeight =appHeight*1/9;
+  //
+  bgX =appWidth*6.3/9;
+  bgY =appHeight*1/3;
+  bgWidth =appWidth*2.3/9;
+  bgHeight =appHeight*1/18;
+  Titleforbackground = "Choose a Background";
 }

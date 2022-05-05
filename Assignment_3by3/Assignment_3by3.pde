@@ -1,7 +1,8 @@
 //Global Variables
-color black= 0, resetWhite=255, resetGreen=#58BC50, pink=#FF00B7; //Not night modes (lots of blue)
-color red=color(255, 0, 0), yellow=color(255, 255, 0), brown=#BC5B00; //Nightmode color
+color black= 0, resetWhite=255, resetGreen=#58BC50, pink=#FF00B7, BGGrey=#C0C1B7; //Not night modes (lots of blue)
+color red=color(255, 0, 0), yellow=color(255, 255, 0), brown=#BC5B00, buttonOrange=#FF9A03; //Nightmode color
 Boolean turnOnYellow=false, turnOnPink=false, turnOnBrown=false;
+PFont wordFont;
 float rectWidth, rectHeight, ptDiameter;
 float ptX1, ptY1, ptX2, ptY2, ptX3, ptY3, ptX4, ptY4;
 float ptX5, ptY5, ptX6, ptY6, ptX7, ptY7, ptX8, ptY8;
@@ -34,6 +35,9 @@ void draw()
   //
   buttondraw();
   //
+  RestartandQuitDraw();
+  //
+  backgroundSelectorDraw();
 }//End Draw
 //
 void keyPressed() 
