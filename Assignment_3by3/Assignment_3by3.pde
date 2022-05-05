@@ -44,27 +44,12 @@ void mousePressed()
 {
   if (mouseX>=buttonX[1] && mouseX<=buttonX[1]+buttonWidth[1] && mouseY>=buttonY[1] && mouseY<=buttonY[1]+buttonHeight[1]) {
     println("BTN 1 Activated");
-    if (turnOnYellow=true) {
-      turnOnYellow=false;
-    } else {
-      turnOnYellow=true;
-    }
   }
   if (mouseX>=buttonX[2] && mouseX<=buttonX[2]+buttonWidth[2] && mouseY>=buttonY[2] && mouseY<=buttonY[2]+buttonHeight[2]) {
     println("BTN 2 Activated");
-    if (turnOnPink=true) {
-      turnOnPink=false;
-    } else {
-      turnOnPink=true;
-    }
   }
   if (mouseX>=buttonX[3] && mouseX<=buttonX[3]+buttonWidth[3] && mouseY>=buttonY[3] && mouseY<=buttonY[3]+buttonHeight[3]) {
     println("BTN 3 Activated");
-    if (turnOnBrown=true) {
-      turnOnBrown=false;
-    } else {
-      turnOnBrown=true;
-    }
   }
   if (mouseX>=ptX3 && mouseX<=ptX3+rectWidth && mouseY>=ptY3 && mouseY<=ptY3+rectHeight*0.5) {
     println("BTN 4 Activated");

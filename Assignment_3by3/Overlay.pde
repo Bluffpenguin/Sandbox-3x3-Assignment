@@ -1,17 +1,11 @@
 //
 //
 void overlayDraw() {
-  //Sections
-  rect(ptX1, ptY1, rectWidth, rectHeight);
-  //
-  if (turnOnPink==true) fill(pink);
-  if (turnOnYellow==true ) fill(yellow); //yellow 
-  if (turnOnBrown==true) fill(brown);
-  //if (turnOnYellow==true) {fill(yellow);} else if (turnOnPink==true) {fill(pink);} else if (turnOnBrown==true) {fill(brown);} else {}
-  rect(ptX2, ptY2, rectWidth, rectHeight); //Buttons change the Colour of RECT(#2)
+ 
   fill(resetGreen);
   //
   rect(ptX1, ptY1, rectWidth, rectHeight);
+  rect(ptX2, ptY2, rectWidth, rectHeight);
   rect(ptX3, ptY3, rectWidth, rectHeight);
   rect(ptX5, ptY5, rectWidth, rectHeight);
   rect(ptX6, ptY6, rectWidth, rectHeight);
@@ -22,7 +16,7 @@ void overlayDraw() {
   fill(resetGreen);
   //
   //Points
-  fill(black);
+  fill(resetWhite);
   ellipse(ptX1, ptY1, ptDiameter, ptDiameter);
   ellipse(ptX2, ptY2, ptDiameter, ptDiameter);
   ellipse(ptX3, ptY3, ptDiameter, ptDiameter);
@@ -34,7 +28,7 @@ void overlayDraw() {
   ellipse(ptX11, ptY11, ptDiameter, ptDiameter);
   //
   //Points for all other ellipses must be red
-  fill(red);
+  fill(resetWhite);
   ellipse(ptX4, ptY4, ptDiameter, ptDiameter);
   ellipse(ptX8, ptY8, ptDiameter, ptDiameter);
   ellipse(ptX12, ptY12, ptDiameter, ptDiameter);
