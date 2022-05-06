@@ -46,9 +46,7 @@ void keyPressed()
 //
 void mousePressed() 
 {
-  if (mouseX>=buttonX[1] && mouseX<=buttonX[1]+buttonWidth[1] && mouseY>=buttonY[1] && mouseY<=buttonY[1]+buttonHeight[1]) {
-    println("BTN 1 Activated");
-  }
+  BackgroundmousePressed();
 }//End mousePressed
 //
 //End Main

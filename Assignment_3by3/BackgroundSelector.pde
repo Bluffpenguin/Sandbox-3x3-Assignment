@@ -67,16 +67,26 @@ void BackgroundmousePressed() {
   //
   if (mouseX>=bgbrownX && mouseX<=bgbrownX+bgbrownWidth && mouseY>=bgbrownY && mouseY<=bgbrownY+bgbrownHeight) 
   {
-    
+    turnOnBlue=false;
+    turnOnGreen=false;
+    turnOnBrown=true;
+    turnOnRed=false;
   }
   //
   if (mouseX>=bgredX && mouseX<=bgredX+bgredWidth && mouseY>=bgredY && mouseY<=bgredY+bgredHeight) 
   {
-    
+    turnOnBlue=false;
+    turnOnGreen=false;
+    turnOnBrown=false;
+    millis();
+    turnOnRed=true;
   }
   //
   if (mouseX>=bggreenX && mouseX<=bggreenX+bggreenWidth && mouseY>=bggreenY && mouseY<=bggreenY+bggreenHeight) 
   {
-    
+    turnOnBlue=false;
+    turnOnGreen=true;
+    turnOnBrown=false;
+    turnOnRed=false;
   }
 }//End BackgroundmousePressed
