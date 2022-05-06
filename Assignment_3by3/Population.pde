@@ -46,4 +46,21 @@ void population()
   bgWidth =appWidth*2.3/9;
   bgHeight =appHeight*1/18;
   Titleforbackground = "Choose a Background";
+  bgblueX =appWidth*11/15;
+  bgblueY =appHeight*7/15;
+  bgblueWidth =appWidth*1/15;
+  bgblueHeight =appHeight*1/15;
+  bgbrownX =appWidth*13/15;
+  bgbrownY =appHeight*7/15;
+  bgbrownWidth =appWidth*1/15;
+  bgbrownHeight =appHeight*1/15;
+  bgredX =appWidth*11/15;
+  bgredY =appHeight*8.5/15;
+  bgredWidth =appWidth*1/15;
+  bgredHeight =appHeight*1/15;
+  bggreenX =appWidth*13/15;
+  bggreenY =appHeight*8.5/15;
+  bggreenWidth =appWidth*1/15;
+  bggreenHeight =appHeight*1/15;
+  
 }
