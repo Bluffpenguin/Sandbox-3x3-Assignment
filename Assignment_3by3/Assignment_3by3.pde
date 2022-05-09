@@ -2,6 +2,7 @@
 color black= 0, resetWhite=255, resetGreen=#58BC50, pink=#FF00B7, BGGrey=#C0C1B7; //Not night modes (lots of blue)
 color red=color(255, 0, 0), yellow=color(255, 255, 0), brown=#BC5B00, buttonOrange=#FF9A03; //Nightmode color
 Boolean turnOnBlue=false, turnOnRed=false, turnOnBrown=false, turnOnGreen=false;
+Boolean closeDoor=true;
 PFont wordFont;
 float rectWidth, rectHeight, ptDiameter;
 float ptX1, ptY1, ptX2, ptY2, ptX3, ptY3, ptX4, ptY4;

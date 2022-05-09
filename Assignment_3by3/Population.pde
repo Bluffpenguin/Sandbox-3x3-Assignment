@@ -65,11 +65,21 @@ void population()
   bggreenWidth =appWidth*1/15;
   bggreenHeight =appHeight*1/15;
   //
-  doorX =appWidth*9/16;
+  doorX =appWidth*7/16;
   doorY =appHeight*5/12; 
-  doorWidth =appWidth*1/16;
+  doorWidth =appWidth*1.5/16;
   doorHeight =appHeight*3/12;
-  dkX =appWidth;
-  dkY =appHeight;
-  dkDiameter =appHeight;
+  dkX =appWidth*7/16;
+  dkY =appHeight*6.4/12;
+  dkDiameter =appHeight*1/50;
+  dkWidth =appWidth*1/65;
+  dkHeight =appHeight*1/50;
+  doorkX =appWidth*7.1/16;
+  doorkY =appHeight*6.5/12;
+  odoorX =appWidth*8.5/16;
+  odoorY =appHeight*5/12;
+  odoorWidth =appWidth*1.5/16;
+  odoorHeight =appHeight*3/12;
+  OdoorkX =appWidth*9.9/16;
+  OdoorkY =appHeight*6.5/12;
 }
