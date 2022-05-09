@@ -1,5 +1,5 @@
 float doorX, doorY, doorWidth, doorHeight, dkX, dkY, dkDiameter, dkWidth, dkHeight, doorkX, doorkY;
-float odoorX, odoorY, odoorWidth, odoorHeight,OdoorkX, OdoorkY;
+float odoorX, odoorY, odoorWidth, odoorHeight, OdoorkX, OdoorkY;
 color brownDoor=#BC613D, gold=#F5DD02;
 //
 //Door with jump scare
@@ -22,7 +22,12 @@ void middleDraw()
     }
   } else {
     //Opened Door
+    fill(black);
+    rect(doorX, doorY, doorWidth, doorHeight);
+    fill(brownDoor);
     rect(odoorX, odoorY, odoorWidth, odoorHeight);
+    fill(resetWhite);
+    fill(gold);
     ellipse(OdoorkX, OdoorkY, dkDiameter, dkDiameter);
   }
   
