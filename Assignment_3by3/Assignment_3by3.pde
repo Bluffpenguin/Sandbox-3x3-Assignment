@@ -33,11 +33,12 @@ void draw()
 {
   overlayDraw();
   //
-  buttondraw();
-  //
   RestartandQuitDraw();
   //
+  middleDraw();
+  //
   backgroundSelectorDraw();
+  //
 }//End Draw
 //
 void keyPressed() 

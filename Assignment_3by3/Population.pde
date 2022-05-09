@@ -64,5 +64,12 @@ void population()
   bggreenY =appHeight*8.5/15;
   bggreenWidth =appWidth*1/15;
   bggreenHeight =appHeight*1/15;
-  
+  //
+  doorX =appWidth*9/16;
+  doorY =appHeight*5/12; 
+  doorWidth =appWidth*1/16;
+  doorHeight =appHeight*3/12;
+  dkX =appWidth;
+  dkY =appHeight;
+  dkDiameter =appHeight;
 }
