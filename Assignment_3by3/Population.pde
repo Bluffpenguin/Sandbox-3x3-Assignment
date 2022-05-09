@@ -40,6 +40,8 @@ void population()
   resbuttonY =appHeight*1.8/9;
   resbuttonWidth =appWidth*2.6/9;
   resbuttonHeight =appHeight*1/9;
+  QuitText = "Quit";
+  RestartText = "Restart";
   //
   bgX =appWidth*6.3/9;
   bgY =appHeight*1/3;

@@ -78,7 +78,6 @@ void BackgroundmousePressed() {
     turnOnBlue=false;
     turnOnGreen=false;
     turnOnBrown=false;
-    millis();
     turnOnRed=true;
   }
   //
