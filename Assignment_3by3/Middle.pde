@@ -72,7 +72,7 @@ void middlemousePressed()
     }
   }
   if (closeDoor==false) file.play(1);
-  if (closeDoor==true) pause();
+  if (closeDoor==true) file.stop();
 } //End middlemousePressed
 //
 void middleSetup() 
