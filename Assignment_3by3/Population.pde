@@ -82,4 +82,12 @@ void population()
   odoorHeight =appHeight*3/12;
   OdoorkX =appWidth*9.9/16;
   OdoorkY =appHeight*6.5/12;
+  MButtonX =appWidth*1/3; 
+  MButtonY =appHeight*9.2/15;
+  MButtonWidth =appWidth*0.20/3;
+  MButtonHeight =appHeight*0.8/15;
+  DoorOtext = "Open";
+  DoorCtext = "Close";
+  //Images
+  picR = loadImage("tenor.gif");
 }

@@ -1,10 +1,29 @@
+PImage picR;
 float doorX, doorY, doorWidth, doorHeight, dkX, dkY, dkDiameter, dkWidth, dkHeight, doorkX, doorkY;
 float odoorX, odoorY, odoorWidth, odoorHeight, OdoorkX, OdoorkY;
+float MButtonX, MButtonY, MButtonWidth, MButtonHeight;
 color brownDoor=#BC613D, gold=#F5DD02;
+String DoorOtext, DoorCtext;
 //
 //Door with jump scare
 void middleDraw() 
 {
+  picR = loadImage("tenor.gif");
+  //Button
+  //fill(brownDoor);
+  //rect(MButtonX, MButtonY, MButtonWidth, MButtonHeight);
+  //fill(resetWhite);
+  textAlign(CENTER, CENTER);
+  textFont(wordFont, 45);
+  if (mouseX>=MButtonX && mouseX<=MButtonX+MButtonWidth && mouseY>=MButtonY && mouseY<=MButtonY+MButtonHeight) {
+    fill(brownHO);
+    rect(MButtonX, MButtonY, MButtonWidth, MButtonHeight);
+    fill(resetWhite);
+  } else {
+    fill(brownDoor);
+    rect(MButtonX, MButtonY, MButtonWidth, MButtonHeight);
+    fill(resetWhite);
+  }
   //Closed Door
   if (closeDoor==true) 
   {
@@ -20,15 +39,34 @@ void middleDraw()
       fill(gold);
       ellipse(doorkX, doorkY, dkDiameter, dkDiameter);
     }
+    fill(black);
+    text(DoorOtext, MButtonX, MButtonY, MButtonWidth, MButtonHeight);
+    fill(resetWhite);
   } else {
     //Opened Door
-    fill(black);
-    rect(doorX, doorY, doorWidth, doorHeight);
+    //fill(black);
+    //rect(doorX, doorY, doorWidth, doorHeight);
     fill(brownDoor);
     rect(odoorX, odoorY, odoorWidth, odoorHeight);
     fill(resetWhite);
     fill(gold);
     ellipse(OdoorkX, OdoorkY, dkDiameter, dkDiameter);
+    image(picR, doorX, doorY, doorWidth, doorHeight);
+    fill(black);
+    text(DoorCtext, MButtonX, MButtonY, MButtonWidth, MButtonHeight);
+    fill(resetWhite);
   }
-  
+}
+//
+void middlemousePressed() 
+{
+  if (mouseX>=MButtonX && mouseX<=MButtonX+MButtonWidth && mouseY>=MButtonY && mouseY<=MButtonY+MButtonHeight) 
+  {
+    if (closeDoor==true) 
+    {
+      closeDoor=false;
+    } else {
+      closeDoor=true;
+    }
+  }
 }

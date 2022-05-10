@@ -1,6 +1,6 @@
 //Global Variables
 color black= 0, resetWhite=255, resetGreen=#58BC50, pink=#FF00B7, BGGrey=#C0C1B7; //Not night modes (lots of blue)
-color red=color(255, 0, 0), yellow=color(255, 255, 0), brown=#BC5B00, buttonOrange=#FF9A03; //Nightmode color
+color buttonOrange=#FF9A03,  brownHO=#6C3A03; //Nightmode color
 Boolean turnOnBlue=false, turnOnRed=false, turnOnBrown=false, turnOnGreen=false;
 Boolean closeDoor=true;
 PFont wordFont;
@@ -26,7 +26,7 @@ void setup()
   //
   //
   //Sounds
-  //file = new SoundFile(this, "goat.wav");
+  //file = new SoundFile(this, "Rick.mp3");
   //file.play();
 }//End Setup
 //
@@ -49,6 +49,7 @@ void keyPressed()
 void mousePressed() 
 {
   BackgroundmousePressed();
+  middlemousePressed();
 }//End mousePressed
 //
 //End Main

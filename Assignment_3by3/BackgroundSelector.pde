@@ -1,6 +1,6 @@
 float bgX, bgY, bgWidth, bgHeight;
 String Titleforbackground;
-color titleColor=#AAAAAA, blueRg=#0F65F5, blueHO=#0547B4, brownRg=#AA5E0C, brownHO=#6C3A03, redRg=#EA0505, redHO=#980303, greenRg=#0AC608, greenHO=#067C05;
+color titleColor=#AAAAAA, blueRg=#0F65F5, blueHO=#0547B4, brownRg=#AA5E0C, redRg=#EA0505, redHO=#980303, greenRg=#0AC608, greenHO=#067C05;
 float bgblueX, bgblueY, bgblueWidth, bgblueHeight;
 float bgbrownX, bgbrownY, bgbrownWidth, bgbrownHeight;
 float bgredX, bgredY, bgredWidth, bgredHeight;
