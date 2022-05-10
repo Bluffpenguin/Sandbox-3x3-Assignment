@@ -1,3 +1,5 @@
+import processing.sound.*;
+SoundFile file;
 PImage picR;
 float doorX, doorY, doorWidth, doorHeight, dkX, dkY, dkDiameter, dkWidth, dkHeight, doorkX, doorkY;
 float odoorX, odoorY, odoorWidth, odoorHeight, OdoorkX, OdoorkY;
@@ -69,4 +71,12 @@ void middlemousePressed()
       closeDoor=true;
     }
   }
+  if (closeDoor==false) file.play(1);
+  if (closeDoor==true) pause();
+} //End middlemousePressed
+//
+void middleSetup() 
+{
+  file = new SoundFile(this, "Rick.mp3");
+  if (closeDoor==false) file.play(1);
 }
