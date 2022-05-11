@@ -10,7 +10,7 @@ String DoorOtext, DoorCtext;
 //Door with jump scare
 void middleDraw() 
 {
-  //picR = loadImage("tenor.gif");
+  picR = loadImage("tenor.gif");
   //Button
   //fill(brownDoor);
   //rect(MButtonX, MButtonY, MButtonWidth, MButtonHeight);
