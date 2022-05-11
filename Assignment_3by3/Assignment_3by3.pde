@@ -39,6 +39,9 @@ void draw()
   //
   backgroundSelectorDraw();
   //
+  bottomrightDraw();
+  //
+  dotsDraw();
 }//End Draw
 //
 void keyPressed() 
