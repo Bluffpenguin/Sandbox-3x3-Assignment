@@ -1,7 +1,7 @@
 //Global Variables
 import processing.sound.*;
 color black= 0, resetWhite=255, resetGreen=#58BC50, pink=#FF00B7, BGGrey=#C0C1B7; //Not night modes (lots of blue)
-color buttonOrange=#FF9A03,  brownHO=#6C3A03; //Nightmode color
+color buttonOrange=#FF9A03,  brownHO=#6C3A03, OrangeHO=#E34A0E; //Nightmode color
 Boolean turnOnBlue=false, turnOnRed=false, turnOnBrown=false, turnOnGreen=false;
 Boolean closeDoor=true;
 PFont wordFont;
@@ -34,6 +34,8 @@ void draw()
   overlayDraw();
   //
   RestartandQuitDraw();
+  //
+  topleftDraw();
   //
   middleDraw();
   //

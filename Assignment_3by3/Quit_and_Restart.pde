@@ -1,7 +1,6 @@
 float quitbuttonX, quitbuttonY, quitbuttonWidth, quitbuttonHeight;
 float resbuttonX, resbuttonY, resbuttonWidth, resbuttonHeight;
 String QuitText, RestartText;
-color OrangeHO=#E34A0E;
 //
 void RestartandQuitDraw() {
   //Quit Button & Restart Button
