@@ -88,6 +88,38 @@ void population()
   MButtonHeight =appHeight*0.8/15;
   DoorOtext = "Open";
   DoorCtext = "Close";
+  //
+  nxbuttonX1=appWidth*0;
+  nxbuttonY1=appHeight*9/30;
+  nxbuttonWidth1=appWidth*1/12;
+  nxbuttonHeight1=appHeight*1/30;
+  /*
+  nxbuttonX2=appWidth;
+  nxbuttonY2=appHeight;
+  nxbuttonWidth2=appWidth;
+  nxbuttonHeight2=appHeight;
+  nxbuttonX3=appWidth;
+  nxbuttonY3=appHeight;
+  nxbuttonWidth3=appWidth;
+  nxbuttonHeight3=appHeight;
+  nxbuttonX4=appWidth;
+  nxbuttonY4=appHeight;
+  nxbuttonWidth4=appWidth;
+  nxbuttonHeight4=appHeight;
+  nxbuttonX5=appWidth;
+  nxbuttonY5=appHeight;
+  nxbuttonWidth5=appWidth;
+  nxbuttonHeight5=appHeight;
+  nxbuttonX6=appWidth;
+  nxbuttonY6=appHeight;
+  nxbuttonWidth6=appWidth;
+  nxbuttonHeight6=appHeight;
+  nxbuttonX7=appWidth;
+  nxbuttonY7=appHeight;
+  nxbuttonWidth7=appWidth;
+  nxbuttonHeight7=appHeight;
+  */
   //Images
   picR = loadImage("tenor.gif");
+  picC = loadImage("funnycat.jpg");
 }
