@@ -134,9 +134,12 @@ void population()
   windowY2=appHeight*21.25/24;
   windowWidth=appWidth*1/30;
   windowHeight=appHeight*1.5/24;
-  windowX3=appWidth;
-  windowY3=appHeight;
-  windowDiameter=appHeight;
+  roofX1 =appWidth*0.5/15;
+  roofY1 =appHeight*20/24;
+  roofX2 =appWidth*1/6;
+  roofY2 =appHeight*16/24;
+  roofX3 =appWidth*4.5/15;
+  roofY3 =appHeight*20/24;
   //Images
   picR = loadImage("tenor.gif");
   picC = loadImage("funnycat.jpg");
