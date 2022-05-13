@@ -1,4 +1,4 @@
-float factTitleX, factTitleY, factTitleWidth, factTitleHeight, factBodyX, factBodyY, factBodyWidth, factBodyHeight;
+float factTitleX, factTitleY, factTitleWidth, factTitleHeight, factBodyX, factBodyY, factBodyWidth, factBodyHeight, ftextBodyWidth;
 String factTitle, factBody;
 //
 void midleftDraw() 
@@ -17,6 +17,6 @@ void midleftDraw()
   text(factTitle, factTitleX, factTitleY, factTitleWidth, factTitleHeight);
   textAlign(CENTER, CENTER);
   textFont(wordFont, 45);
-  text(factBody, factBodyX, factBodyY, factBodyWidth, factBodyHeight);
+  text(factBody, factBodyX, factBodyY, ftextBodyWidth, factBodyHeight);
   */
 }

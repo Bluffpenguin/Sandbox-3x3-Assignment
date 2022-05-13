@@ -149,8 +149,12 @@ void population()
   factBodyY =appHeight*12.4/30;
   factBodyWidth =appWidth*6.5/24;
   factBodyHeight =appHeight*7/30;
+  ftextBodyWidth =appWidth*3.25/24;
+  factTitle = "Kangaroo Fact #154: Wings";
+  factBody = "";
   //Images
   picR = loadImage("tenor.gif");
   picC = loadImage("funnycat.jpg");
   picQ = loadImage("diogenesfunny.jpg");
+  picK = loadImage("Kangaroo.jpg");
 }
