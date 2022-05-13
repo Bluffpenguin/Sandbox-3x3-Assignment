@@ -115,6 +115,15 @@ void population()
   nxbuttonY9=appHeight*29/30;
   nxbuttonWidth9=appWidth*1/12;
   nxbuttonHeight9=appHeight*1/30;
+  //
+  grassX=appWidth*0;
+  grassY=appHeight*23/24;
+  grassWidth=appWidth*1/3;
+  grassHeight=appHeight*1/24;
+  houseX =;
+  houseY =;
+  houseWidth =;
+  houseHeight =;
   //Images
   picR = loadImage("tenor.gif");
   picC = loadImage("funnycat.jpg");

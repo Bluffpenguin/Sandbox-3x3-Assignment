@@ -10,14 +10,13 @@ void bottommidDraw()
   pokadotRadius = pokadotDiameter*1/2;
   pokadotX1 = random( ptX10+pokadotRadius, ( ( ptX10+rectWidth - pokadotRadius) ));
   pokadotY1 = random( ptY10+pokadotRadius, ( ( ptY10+rectHeight - pokadotRadius) ));
-  if (bottomMid==true) 
-  {
-    noStroke();
-    fill(pokadotColour);
-    ellipse( pokadotX1, pokadotY1, pokadotDiameter, pokadotDiameter );
-    stroke(reset);
-    fill(resetWhite);
-  }
+
+  noStroke();
+  fill(pokadotColour);
+  ellipse( pokadotX1, pokadotY1, pokadotDiameter, pokadotDiameter );
+  stroke(reset);
+  fill(resetWhite);
+
   //Next
   if (mouseX>=nxbuttonX8 && mouseX<=nxbuttonX8+nxbuttonWidth8 && mouseY>=nxbuttonY8 && mouseY<=nxbuttonY8+nxbuttonHeight8) {
     fill(OrangeHO);
