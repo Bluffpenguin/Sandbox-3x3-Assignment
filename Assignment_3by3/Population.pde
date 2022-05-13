@@ -2,16 +2,18 @@
 void population() 
 {
   //Population
+  reset=1;
+  //
   rectWidth = appWidth*1/3;
   rectHeight = appHeight*1/3;
   ptDiameter = appWidth*1/50;
   wordFont = createFont("Corbel", 48);
-  
+  //
   ptX1 = ptX5 = ptX9 = ptX13 = appWidth*0; 
   ptX2 = ptX6 = ptX10 = ptX14 = appWidth*1/3; 
   ptX3 = ptX7 = ptX11 = ptX15 = appWidth*2/3;  
   ptX4 = ptX8 = ptX12 = ptX16 = appWidth*3/3; //
-
+//
   ptY1 = ptY2 = ptY3 = ptY4 = appWidth*0;
   ptY5 = ptY6 = ptY7 = ptY8 = appHeight*1/3;
   ptY9 = ptY10 = ptY11 = ptY12 = appHeight*2/3;
@@ -93,14 +95,14 @@ void population()
   nxbuttonY1=appHeight*9/30;
   nxbuttonWidth1=appWidth*1/12;
   nxbuttonHeight1=appHeight*1/30;
-  nxbuttonX2=appWidth*1/3;
-  nxbuttonY2=appHeight*9/30;
-  nxbuttonWidth2=appWidth*1/12;
-  nxbuttonHeight2=appHeight*1/30;
-  nxbuttonX4=appWidth*0;
-  nxbuttonY4=appHeight*19/30;
-  nxbuttonWidth4=appWidth*1/12;
-  nxbuttonHeight4=appHeight*1/30;
+  //nxbuttonX2=appWidth*1/3;
+  //nxbuttonY2=appHeight*9/30;
+  //nxbuttonWidth2=appWidth*1/12;
+  //nxbuttonHeight2=appHeight*1/30;
+  //nxbuttonX4=appWidth*0;
+  //nxbuttonY4=appHeight*19/30;
+  //nxbuttonWidth4=appWidth*1/12;
+  //nxbuttonHeight4=appHeight*1/30;
   nxbuttonX7=appWidth*0;
   nxbuttonY7=appHeight*29/30;
   nxbuttonWidth7=appWidth*1/12;
