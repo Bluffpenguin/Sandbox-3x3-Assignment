@@ -140,6 +140,15 @@ void population()
   roofY2 =appHeight*16/24;
   roofX3 =appWidth*4.5/15;
   roofY3 =appHeight*20/24;
+  //
+  factTitleX =appWidth*0.5/24;
+  factTitleY =appHeight*1/3;
+  factTitleWidth =appWidth*6.5/24;
+  factTitleHeight =appHeight*0.5/10;
+  factBodyX =appWidth*0.5/24;
+  factBodyY =appHeight*12.4/30;
+  factBodyWidth =appWidth*6.5/24;
+  factBodyHeight =appHeight*7/30;
   //Images
   picR = loadImage("tenor.gif");
   picC = loadImage("funnycat.jpg");

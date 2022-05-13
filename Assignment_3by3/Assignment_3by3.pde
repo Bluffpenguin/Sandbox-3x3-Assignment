@@ -48,6 +48,8 @@ void draw()
   //
   bottomleftDraw();
   //
+  midleftDraw();
+  //
   if (bottomMid==true) bottommidDraw();
   //
   dotsDraw();
