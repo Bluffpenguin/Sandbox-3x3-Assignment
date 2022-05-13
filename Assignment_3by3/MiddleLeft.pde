@@ -1,5 +1,6 @@
 float factTitleX, factTitleY, factTitleWidth, factTitleHeight, factBodyX, factBodyY, factBodyWidth, factBodyHeight, ftextBodyWidth;
 String factTitle, factBody;
+PImage picK;
 //
 void midleftDraw() 
 {

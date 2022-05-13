@@ -156,5 +156,5 @@ void population()
   picR = loadImage("tenor.gif");
   picC = loadImage("funnycat.jpg");
   picQ = loadImage("diogenesfunny.jpg");
-  picK = loadImage("Kangaroo.jpg");
+  picK = loadImage("kangaroo.jpg");
 }
