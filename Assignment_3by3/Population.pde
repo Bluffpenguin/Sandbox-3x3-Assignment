@@ -120,10 +120,23 @@ void population()
   grassY=appHeight*23/24;
   grassWidth=appWidth*1/3;
   grassHeight=appHeight*1/24;
-  houseX =;
-  houseY =;
-  houseWidth =;
-  houseHeight =;
+  houseX =appWidth*1/15;
+  houseY =appHeight*20/24;
+  houseWidth =appWidth*3/15;
+  houseHeight =appHeight*4/24;
+  doorhX=appWidth*4/30;
+  doorhY=appHeight*21/24;
+  doorhWidth=appWidth*2/30; 
+  doorhHeight=appHeight*3/24;
+  windowX1=appWidth*2.5/30;
+  windowY1=appHeight*21.25/24;
+  windowX2=appWidth*6.5/30;
+  windowY2=appHeight*21.25/24;
+  windowWidth=appWidth*1/30;
+  windowHeight=appHeight*1.5/24;
+  windowX3=appWidth;
+  windowY3=appHeight;
+  windowDiameter=appHeight;
   //Images
   picR = loadImage("tenor.gif");
   picC = loadImage("funnycat.jpg");
