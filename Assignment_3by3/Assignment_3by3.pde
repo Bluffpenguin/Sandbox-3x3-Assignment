@@ -5,8 +5,9 @@ color black= 0, resetWhite=255, resetGreen=#58BC50, pink=#FF00B7, BGGrey=#C0C1B7
 color buttonOrange=#FF9A03,  brownHO=#6C3A03, OrangeHO=#E34A0E; //Nightmode color
 Boolean turnOnBlue=false, turnOnRed=false, turnOnBrown=false, turnOnGreen=false;
 Boolean closeDoor=true;
-Boolean bottomMid=false;
+Boolean bottomMid=false, bottomLeft=false, middleLeft=false, topLeft=false, topMid=false, middle=false;
 PFont wordFont;
+String nextButton;
 float rectWidth, rectHeight, ptDiameter;
 float ptX1, ptY1, ptX2, ptY2, ptX3, ptY3, ptX4, ptY4;
 float ptX5, ptY5, ptX6, ptY6, ptX7, ptY7, ptX8, ptY8;
@@ -38,19 +39,19 @@ void draw()
   //
   RestartandQuitDraw();
   //
-  topleftDraw();
+  if (topLeft==false) topleftDraw();
   //
-  middleDraw();
+  if (middle==true) middleDraw();
   //
   backgroundSelectorDraw();
   //
   bottomrightDraw();
   //
-  bottomleftDraw();
+  if (bottomLeft==true) bottomleftDraw();
   //
-  midleftDraw();
+  if (middleLeft ==true) midleftDraw();
   //
-  topMidDraw();
+  if (topMid==true) topMidDraw();
   //
   if (bottomMid==true) bottommidDraw();
   //
@@ -64,7 +65,7 @@ void keyPressed()
 void mousePressed() 
 {
   BackgroundmousePressed();
-  middlemousePressed();
+  if (middle==true) middlemousePressed();
 }//End mousePressed
 //
 //End Main

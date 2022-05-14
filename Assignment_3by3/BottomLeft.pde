@@ -31,4 +31,8 @@ void bottomleftDraw()
     rect(nxbuttonX7, nxbuttonY7, nxbuttonWidth7, nxbuttonHeight7);
     fill(resetWhite);
   }
+  fill(black);
+  textAlign(CENTER, CENTER);
+  textFont(wordFont, 45);
+  text(nextButton, nxbuttonX7, nxbuttonY7, nxbuttonWidth7, nxbuttonHeight7);
 }//End bottomleftDraw

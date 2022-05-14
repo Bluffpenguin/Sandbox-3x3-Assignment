@@ -14,4 +14,8 @@ void topMidDraw()
     rect(nxbuttonX2, nxbuttonY2, nxbuttonWidth2, nxbuttonHeight2);
     fill(resetWhite);
   }
+  fill(black);
+  textAlign(CENTER, CENTER);
+  textFont(wordFont, 45);
+  text(nextButton, nxbuttonX2, nxbuttonY2, nxbuttonWidth2, nxbuttonHeight2);
 }//End topMidDraw

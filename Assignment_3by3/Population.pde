@@ -44,6 +44,7 @@ void population()
   resbuttonHeight =appHeight*1/9;
   QuitText = "Quit";
   RestartText = "Restart";
+  nextButton = "Next";
   //
   bgX =appWidth*6.3/9;
   bgY =appHeight*1/3;
@@ -95,14 +96,14 @@ void population()
   nxbuttonY1=appHeight*9/30;
   nxbuttonWidth1=appWidth*1/12;
   nxbuttonHeight1=appHeight*1/30;
-  //nxbuttonX2=appWidth*1/3;
-  //nxbuttonY2=appHeight*9/30;
-  //nxbuttonWidth2=appWidth*1/12;
-  //nxbuttonHeight2=appHeight*1/30;
-  //nxbuttonX4=appWidth*0;
-  //nxbuttonY4=appHeight*19/30;
-  //nxbuttonWidth4=appWidth*1/12;
-  //nxbuttonHeight4=appHeight*1/30;
+  nxbuttonX2=appWidth*1/3;
+  nxbuttonY2=appHeight*9/30;
+  nxbuttonWidth2=appWidth*1/12;
+  nxbuttonHeight2=appHeight*1/30;
+  nxbuttonX4=appWidth*1/30;
+  nxbuttonY4=appHeight*18/30;
+  nxbuttonWidth4=appWidth*1/12;
+  nxbuttonHeight4=appHeight*1/30;
   nxbuttonX7=appWidth*0;
   nxbuttonY7=appHeight*29/30;
   nxbuttonWidth7=appWidth*1/12;
