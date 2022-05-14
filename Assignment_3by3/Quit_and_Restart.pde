@@ -32,3 +32,22 @@ void RestartandQuitDraw() {
   text(QuitText, quitbuttonX, quitbuttonY, quitbuttonWidth, quitbuttonHeight);
   text(RestartText, resbuttonX, resbuttonY, resbuttonWidth, resbuttonHeight);
 }
+//
+void RandQmousePressed()
+{
+  if (mouseX>=quitbuttonX && mouseX<=quitbuttonX+quitbuttonWidth && mouseY>=quitbuttonY && mouseY<=quitbuttonY+quitbuttonHeight) exit();
+  if (mouseX>=resbuttonX && mouseX<=resbuttonX+resbuttonWidth && mouseY>=resbuttonY && mouseY<=resbuttonY+resbuttonHeight) 
+  {
+    bottomMid=false;
+    bottomLeft=false;
+    middleLeft=false;
+    topLeft=false;
+    topMid=false;
+    middle=false;
+    closeDoor=true;
+    turnOnBlue=false;
+    turnOnRed=false;
+    turnOnBrown=false;
+    turnOnGreen=false;
+  }//End restart button
+}//End RandQmousePressed

@@ -39,7 +39,7 @@ void draw()
   //
   RestartandQuitDraw();
   //
-  if (topLeft==false) topleftDraw();
+  if (topLeft==true) topleftDraw();
   //
   if (middle==true) middleDraw();
   //
@@ -64,6 +64,7 @@ void keyPressed()
 //
 void mousePressed() 
 {
+  nextmousePressed();
   BackgroundmousePressed();
   if (middle==true) middlemousePressed();
 }//End mousePressed
