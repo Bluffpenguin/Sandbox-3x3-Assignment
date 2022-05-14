@@ -150,8 +150,8 @@ void population()
   factBodyWidth =appWidth*6.5/24;
   factBodyHeight =appHeight*7/30;
   ftextBodyWidth =appWidth*3.25/24;
-  factTitle = "Kangaroo Fact #154: Wings";
-  factBody = "";
+  factTitle = "Kangaroo Fact #154: Nature's Spring-Shoes";
+  factBody = "Hopping is an energy-efficient way for kangaroos to move, helping them cover large distances in arid Australia as they search for food. They usually travel at moderate speeds, but they are capable of sprinting when necessary. A red kangaroo can hop at 35 mph, leap about six feet off the ground, and cover 25 feet in a single bound. -www.treehugger.com";
   int picKWidth =474;
   int picKHeight =711;
   largerPicKDimension = picKHeight;

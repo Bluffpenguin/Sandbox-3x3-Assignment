@@ -14,16 +14,15 @@ void midleftDraw()
   //Body
   fill(buttonOrange);
   rect(factBodyX, factBodyY, factBodyWidth, factBodyHeight);
+  fill(resetWhite);
   //Image
   image(picK, rectXPicK, rectYPicK, picKWidthAdjusted, picKHeightAdjusted);
   //Text
-  /*
   fill(black);
   textAlign(CENTER, CENTER);
   textFont(wordFont, 45);
   text(factTitle, factTitleX, factTitleY, factTitleWidth, factTitleHeight);
-  textAlign(CENTER, CENTER);
-  textFont(wordFont, 45);
+  textAlign(LEFT, CENTER);
+  textFont(wordFont, 30);
   text(factBody, factBodyX, factBodyY, ftextBodyWidth, factBodyHeight);
-  */
 }
