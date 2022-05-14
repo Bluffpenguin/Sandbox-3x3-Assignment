@@ -64,6 +64,7 @@ void keyPressed()
 //
 void mousePressed() 
 {
+  RandQmousePressed();
   nextmousePressed();
   BackgroundmousePressed();
   if (middle==true) middlemousePressed();

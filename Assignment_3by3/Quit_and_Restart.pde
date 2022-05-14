@@ -49,5 +49,6 @@ void RandQmousePressed()
     turnOnRed=false;
     turnOnBrown=false;
     turnOnGreen=false;
+    file.stop();
   }//End restart button
 }//End RandQmousePressed
