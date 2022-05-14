@@ -1,7 +1,7 @@
 float factTitleX, factTitleY, factTitleWidth, factTitleHeight, factBodyX, factBodyY, factBodyWidth, factBodyHeight, ftextBodyWidth;
 float imageWidthRatioPicK=0.0, imageHeightRatioPicK=0.0;
 float rectXPicK, rectYPicK, rectWidthPicK, rectHeightPicK;
-float pic1WidthAdjusted, pic1HeightAdjusted;
+float picKWidthAdjusted, picKHeightAdjusted;
 int largerPicKDimension, smallerPicKDimension;
 String factTitle, factBody;
 PImage picK;
