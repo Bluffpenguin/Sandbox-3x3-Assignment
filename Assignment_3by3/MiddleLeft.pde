@@ -22,7 +22,7 @@ void midleftDraw()
   textAlign(CENTER, CENTER);
   textFont(wordFont, 45);
   text(factTitle, factTitleX, factTitleY, factTitleWidth, factTitleHeight);
-  textAlign(LEFT, CENTER);
-  textFont(wordFont, 30);
+  textAlign(LEFT, TOP);
+  textFont(wordFont, 25);
   text(factBody, factBodyX, factBodyY, ftextBodyWidth, factBodyHeight);
 }

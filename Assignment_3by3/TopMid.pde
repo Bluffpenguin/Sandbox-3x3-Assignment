@@ -1,2 +1,17 @@
+PImage picWIP;
+float nxbuttonX2, nxbuttonY2, nxbuttonWidth2, nxbuttonHeight2;
 //
-void topMidDraw() {}//End topMidDraw
+void topMidDraw() 
+{
+  image(picWIP, ptX2, ptY2, rectWidth, rectHeight);
+  //Next
+  if (mouseX>=nxbuttonX2 && mouseX<=nxbuttonX2+nxbuttonWidth2 && mouseY>=nxbuttonY2 && mouseY<=nxbuttonY2+nxbuttonHeight2) {
+    fill(OrangeHO);
+    rect(nxbuttonX2, nxbuttonY2, nxbuttonWidth2, nxbuttonHeight2);
+    fill(resetWhite);
+  } else {
+    fill(buttonOrange);
+    rect(nxbuttonX2, nxbuttonY2, nxbuttonWidth2, nxbuttonHeight2);
+    fill(resetWhite);
+  }
+}//End topMidDraw

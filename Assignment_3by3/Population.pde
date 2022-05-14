@@ -158,11 +158,10 @@ void population()
   smallerPicKDimension = picKWidth;
   imageWidthRatioPicK = float(smallerPicKDimension) / float(largerPicKDimension);
   imageHeightRatioPicK = float(largerPicKDimension) / float(largerPicKDimension);
-  rectXPicK = appWidth*3.25/24;
+  rectXPicK = appWidth*4/24;
   rectYPicK = appHeight*12.4/30;
   rectWidthPicK = appWidth*3.25/24;
   rectHeightPicK = appHeight*7/30;
-  float picKWidthAdjusted, picKHeightAdjusted;
   picKWidthAdjusted = rectWidthPicK * imageWidthRatioPicK;
   picKHeightAdjusted = rectHeightPicK * imageHeightRatioPicK;
   //Images
@@ -170,4 +169,5 @@ void population()
   picC = loadImage("funnycat.jpg");
   picQ = loadImage("diogenesfunny.jpg");
   picK = loadImage("kangaroo.jpg");
+  picWIP = loadImage("WIP.jpg");
 }
