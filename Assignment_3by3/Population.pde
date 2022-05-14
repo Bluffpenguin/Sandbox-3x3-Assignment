@@ -152,6 +152,19 @@ void population()
   ftextBodyWidth =appWidth*3.25/24;
   factTitle = "Kangaroo Fact #154: Wings";
   factBody = "";
+  int picKWidth =474;
+  int picKHeight =711;
+  largerPicKDimension = picKHeight;
+  smallerPicKDimension = picKWidth;
+  imageWidthRatioPicK = float(smallerPicKDimension) / float(largerPicKDimension);
+  imageHeightRatioPicK = float(largerPicKDimension) / float(largerPicKDimension);
+  rectXPicK = appWidth*3.25/24;
+  rectYPicK = appHeight*12.4/30;
+  rectWidthPicK = appWidth*3.25/24;
+  rectHeightPicK = appHeight*7/30;
+  float picKWidthAdjusted, picKHeightAdjusted;
+  picKWidthAdjusted = rectWidthPicK * imageWidthRatioPicK;
+  picKHeightAdjusted = rectHeightPicK * imageHeightRatioPicK;
   //Images
   picR = loadImage("tenor.gif");
   picC = loadImage("funnycat.jpg");
